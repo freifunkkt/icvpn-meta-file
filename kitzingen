@@ -15,10 +15,10 @@
     ipv4:
       - 10.68.0.0/18
     #not picket / decided yet
-    #ipv6:
-    #  - fdef:ffc0:3dd7::/48
+    ipv6:
+      - fdef:ffc0:8fff::/48
     # Tunnel by HE
-       - 2001:470:6d:83::/64
+      - 2001:470:6d:83::/64
 
   # A list of BGP peers in IC-VPN announcing your AS.
   bgp:
