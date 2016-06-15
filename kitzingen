@@ -17,7 +17,8 @@
     #not picket / decided yet
     #ipv6:
     #  - fdef:ffc0:3dd7::/48
-    #  - 2001:bf7:110::/44
+    # Tunnel by HE
+       - 2001:470:6d:83::/64
 
   # A list of BGP peers in IC-VPN announcing your AS.
   bgp:
